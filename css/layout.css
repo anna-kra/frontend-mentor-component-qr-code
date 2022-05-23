@@ -1,0 +1,30 @@
+/* layout */
+body {
+  background-color: var(--cl-light-gray);
+  font-family: var(--ff-primary);
+}
+
+.preview {
+  min-height: 100vh;
+  display: grid;
+	place-items: center;
+}
+
+.container {
+  max-width: 320px;
+}
+
+.attribution {
+  font-size: var(--fs-2);
+  text-align: center;
+}
+
+.attribution__link:link,
+.attribution__link:visited {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution__link:hover,
+.attribution__link:active {
+  color: hsl(17, 97%, 55%);
+}

@@ -1,0 +1,33 @@
+/* QR-card component */
+.card {
+  padding: 1rem 1rem 1.5rem;
+  border-radius: 20px;
+  background-color: var(--cl-white);
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+
+.card__image {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.card__headline {
+  margin: 1.5rem 0 0;
+  padding: 0;
+  text-align: center;
+  font-size: var(--fs-6);
+  line-height: 1.75rem;
+  font-weight: var(--fw-bold);
+  color: var(--cl-primary);
+}
+
+.card__text {
+  margin: 1rem 0 0;
+  padding: 0 1rem 1rem;
+  text-align: center;
+  font-size: var(--fs-3);
+  line-height: 1.18125rem;
+  letter-spacing: 0.1875px;
+  font-weight: var(--fw-normal);
+  color: var(--cl-grayish-blue);
+}
